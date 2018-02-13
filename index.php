@@ -1,6 +1,7 @@
 <?php
 $clanid=  2916191;
 
+
 $a= "https://www.bungie.net/Platform";
 $clan = "/Destiny2/Clan/".$clanid."/WeeklyRewardState/";
 $clanLeaderboards = "/Destiny2/Stats/Leaderboards/Clans/".$clanid."/";
@@ -57,7 +58,7 @@ Verb: GET
 Path: /User/GetMembershipsById/{membershipId}/{membershipType}/
 Path: /Destiny2/{membershipType}/Profile/{destinyMembershipId}/
 
-67a6489d531646faaba1105a3a80967d
+
 95e1b68652a641fd8f8973d064706a59
 
 
