@@ -12,7 +12,7 @@ $part = "/User/4611686018433747360/Partnerships/";
 
     
         $ch = curl_init();
-        curl_setopt($ch,CURLOPT_URL,$a.$GetProfile); 
+        curl_setopt($ch,CURLOPT_URL,$a.$clanLeaderboards); 
         curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
         curl_setopt($ch,CURLOPT_HTTPHEADER,array('X-API-Key: 95e1b68652a641fd8f8973d064706a59'));
         $json = json_decode(curl_exec($ch));
